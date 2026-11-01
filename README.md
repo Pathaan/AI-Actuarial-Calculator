@@ -110,7 +110,6 @@ life-insurance-engine/
 ├── requirements.txt
 └── README.md
 
-
 ### 4. Development roadmap
 Phase	What to build	Priority
 1	Mortality data and assumptions	Essential
