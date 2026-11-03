@@ -56,7 +56,7 @@ Testing	Pytest
 
 VBA can be added later for Excel automation.
 
-### 3. Suggested VS Code folder structure
+### 3. Folder structure
 ```
 life-insurance-engine/
 │
