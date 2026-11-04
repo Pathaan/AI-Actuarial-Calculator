@@ -56,7 +56,7 @@ Testing	Pytest
 
 VBA can be added later for Excel automation.
 
-### 3. Suggested VS Code folder structure
+### 3. Folder structure
 ```
 life-insurance-engine/
 │
@@ -113,13 +113,21 @@ life-insurance-engine/
 ```
 ### 4. Development roadmap
 Phase	What to build	Priority
+
 1	Mortality data and assumptions	Essential
+
 2	Term insurance pricing	Essential
+
 3	Policy cash-flow projections	Essential
+
 4	GPR and NPR calculations	Essential
+
 5	Loan amortisation	Important
+
 6	Sensitivity analysis	Important
+
 7	Streamlit interface	Important
+
 8	Excel and Power BI reporting	Later
 
 ## 5. It's a modular engine, not one giant Python file.
