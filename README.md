@@ -58,57 +58,13 @@ VBA can be added later for Excel automation.
 
 ### 3. Folder structure
 ```
-life-insurance-engine/
-│
-├── data/
-│   ├── raw/
-│   ├── processed/
-│   └── assumptions/
-│
-├── notebooks/
-│   ├── 01_data_exploration.ipynb
-│   ├── 02_mortality_analysis.ipynb
-│   ├── 03_pricing_analysis.ipynb
-│   └── 04_reserving_analysis.ipynb
-│
-├── src/
-│   ├── data/
-│   │   ├── ingestion.py
-│   │   └── validation.py
-│   │
-│   ├── mortality/
-│   │   └── mortality.py
-│   │
-│   ├── pricing/
-│   │   └── premium.py
-│   │
-│   ├── cashflows/
-│   │   └── projections.py
-│   │
-│   ├── reserving/
-│   │   └── reserves.py
-│   │
-│   ├── loans/
-│   │   └── amortization.py
-│   │
-│   └── sensitivity/
-│       └── scenarios.py
-│
-├── app/
-│   └── streamlit_app.py
-│
-├── excel/
-│   └── actuarial_report.xlsx
-│
+life-engine/
+├── engine/          # core Python package
+├── notebooks/       # 6 notebooks (theory, validation, analysis)
+├── app/             # Streamlit app (imports engine)
+├── data/            # life tables, synthetic portfolio, exported results
+├── powerbi/         # .pbix file + screenshots
 ├── tests/
-│   ├── test_pricing.py
-│   ├── test_reserving.py
-│   └── test_loans.py
-│
-├── reports/
-│   └── figures/
-│
-├── requirements.txt
 └── README.md
 ```
 ### 4. Development roadmap
