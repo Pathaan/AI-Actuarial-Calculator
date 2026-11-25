@@ -1,4 +1,4 @@
-# Life Insurance Pricing, Reserving & Financial Modelling Engine
+# Life Insurance Pricing, Reserving Engine
 
 ## Actuarial Modelling Pipeline
 ### 01. Data & Assumptions
